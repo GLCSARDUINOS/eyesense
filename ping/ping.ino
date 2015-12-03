@@ -50,7 +50,7 @@ void pingResult(uint8_t sensor) { // Sensor got a ping, do something with the re
   checkResult(currentSensor);
 }// in the final project, we will comment the result printing out as it has no use besides debugging
 
-void checkResult(uint8_t sensor) {
+void checkResult(uint8_t sensor) { // Temporary code to see if it works
   if (cm[sensor] < 30) {
     Serial.println("haha");
   }
